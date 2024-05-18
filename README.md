@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Project Name: 21st Century Pizza 2024 Rebrand
+
+### Description: The business is rebranding to a more farm-to-table natural approach. Styling is based on this template https://startertemplatecloud.com/g70/ for inspiration. The app uses Next.js as a meta framework for React.js and Tailwind for styling the elements. Some images are AI generated (at least in the initial development phase).
+
 ## Getting Started
 
 First, run the development server:
