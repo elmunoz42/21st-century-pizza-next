@@ -36,13 +36,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-30"></div>
       </div>
       {/* Second Section  */}
-      <div className="relative bg-[url('/farm-field.jpg')] bg-cover py-8 bg-bottom">
-        {/* <div className="absolute inset-0 bg-white bg-opacity-30"></div> */}
+      <div className="relative bg-bottom  bg-primary">
         <div className="flex container relative">
           <div className="w-1/2 py-8 ps-8 flex flex-col items-center justify-center">
-            <div className="h-32"></div>
+            {/* <div className="h-32"></div> */}
+
             <div className="h-16"></div>
-            <h2 className="text-3xl font-bold text-center mt-8">
+            <h2 className="text-4xl text-white font-bold text-center mt-8">
               Food is Our Love Language...
             </h2>
             <p
@@ -52,6 +52,7 @@ export default function Home() {
               and now we want to share that with you. Our pizza is made with the
               freshest ingredients and delivered to your door."
             </p>
+            <div className="h-16"></div>
           </div>
           <div className="relative w-full h-64 flex items-center justify-center">
             <Image
@@ -65,17 +66,15 @@ export default function Home() {
         </div>
       </div>
       {/* Third Section  */}
-      {/* <div className="h-32"></div> */}
-      <div className="relative bg-[url('/ai-kitchen-table.jpg')] bg-cover py-8">
-        <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-sm"></div>
+      <div className="relative bg-[url('/ai-tomato-plant.jpg')] bg-cover py-8">
         {/* Section Title  */}
         <div className="relative">
           <h2
             className={`${coveredByYourGrace.className} text-4xl text-primary text-center`}
           >
-            gourmet ingredients
+            <span className="bg-white px-4">gourmet ingredients</span>
           </h2>
-          <h1 className="text-6xl font-bold text-black text-center mt-8">
+          <h1 className="text-6xl font-bold text-white text-center mt-8">
             MORE THAN JUST A PIZZA SHOP
           </h1>
         </div>
@@ -84,26 +83,87 @@ export default function Home() {
           {PRODUCTS.map((product, index) => (
             <div
               key={index}
-              className="transform transition-transform duration-500 hover:scale-105 bg-white p-4 rounded-lg shadow-lg py-8 px-4 text-center "
+              className="transform transition-transform duration-500 hover:scale-105 bg-white p-4 rounded-lg shadow-lg py-8 px-4 text-center bg-opacity-90 mx-8"
             >
               <div className="items-center justify-center">
                 <Image
                   src={product.image}
                   alt={product.title}
-                  width={400} // replace with your desired width
-                  height={400} // replace with your desired height
+                  width={400}
+                  height={400}
                   objectFit="cover"
                   className="mx-auto"
                 />
               </div>
               <h2
-                className={`${coveredByYourGrace.className} text-xl font-bold mt-4 text-primary-dark`}
+                className={`${coveredByYourGrace.className} text-3xl font-bold mt-4 text-primary-dark`}
               >
                 {product.title}
               </h2>
-              <p>{product.description}</p>
+              <p className="max-w-sm text-center mx-auto text-1">
+                {product.description}
+              </p>
+              <Link
+                href="/order-online"
+                className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded inline-block z-20 mt-4"
+              >
+                ORDER ONLINE
+              </Link>
             </div>
           ))}
+        </div>
+      </div>
+      {/* Fourth Section  */}
+      <div className="relative bg-primary">
+        <div className="container flex flex-row items-center justify-center py-8">
+          <div className="flex-1">
+            <iframe
+              className="instagram-media instagram-media-rendered"
+              id="instagram-embed-0"
+              src="https://www.instagram.com/p/BwP2jEWh3hN/embed/captioned/?cr=1&amp;v=12&amp;wp=326&amp;rd=https%3A%2F%2F21stcenturypizza.com&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A2196.7999999970198%2C%22ls%22%3A1405.699999988079%2C%22le%22%3A2193.2999999970198%7D"
+              allowTransparency="true"
+              allowFullScreen="true"
+              frameBorder="0"
+              height="818"
+              data-instgrm-payload-id="instagram-media-payload-0"
+              scrolling="no"
+              style={{
+                background: "white",
+                maxWidth: "540px",
+                width: "calc(100% - 2px)",
+                borderRadius: "3px",
+                border: "1px solid rgb(219, 219, 219)",
+                boxShadow: "none",
+                display: "block",
+                margin: "0px 0px 12px",
+                minWidth: "326px",
+                padding: "0px",
+              }}
+            ></iframe>
+          </div>
+          <div className="flex-1 flex flex-col items-center justify-center">
+            <h2
+              className={`${coveredByYourGrace.className} text-4xl text-white text-center`}
+            >
+              <span className="bg-white px-4 text-primary">
+                we love our fans
+              </span>
+            </h2>
+            <h1 className="text-6xl font-bold text-white text-center mt-8">
+              WE ARE LISTENING
+            </h1>
+            <p
+              className={`${coveredByYourGrace.className} text-center max-w-2xl mx-auto mt-4 text-primary text-2xl bg-white p-4 rounded-lg shadow-lg`}
+            >
+              "Check us out on Instagram for special deals, news and more..."
+            </p>
+            <Link
+              href="/order-online"
+              className="bg-white hover:bg-primary-dark hover:text-white text-primary font-bold py-2 px-4 rounded inline-block z-20 mt-4"
+            >
+              ORDER ONLINE
+            </Link>
+          </div>
         </div>
       </div>
     </main>

@@ -20,11 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={oswald.className}>
-        <nav className="flex justify-between items-center p-4 bg-gray-800 text-white">
+        <nav className="flex justify-between items-center p-4 bg-white">
           <Image
-            src="/ai-logo-cr.png"
-            width="500"
-            height="100"
+            src="/simplified-logo-v1.jpg"
+            width="800"
+            height="200"
             alt="Logo"
             className="h-8 w-auto"
           />
@@ -48,7 +48,7 @@ export default function RootLayout({
             rel="noopener noreferrer"
             className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded inline-block"
           >
-            Shop Now
+            ORDER ONLINE
           </a>
         </nav>
         {children}
