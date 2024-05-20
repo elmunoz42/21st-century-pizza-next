@@ -30,15 +30,15 @@ const About: NextPage = () => {
           <p className="text-center max-w-2xl mx-auto mt-4  text-2xl bg-white p-4 rounded-lg shadow-lg">
             Once upon a time, Joe Biaginni and Michael Trama were just two
             pizza-loving pals who took over a local pizza joint. But these
-            weren’t your average pizza guys! They had a vision - a pizza topped
-            with the freshest ingredients, so fresh in fact, they decided to
-            grow them themselves! So, they traded their pizza peels for
+            weren&apos;t your average pizza guys! They had a vision - a pizza
+            topped with the freshest ingredients, so fresh in fact, they decided
+            to grow them themselves! So, they traded their pizza peels for
             gardening gloves and got down and dirty on the farm. Now, many of
             the tomatoes, herbs, and veggies that tops their pizzas are grown
-            with love and care on their very own farm. It’s a pizza revolution!
-            Also, soon they'll introduce their very own farm grown chicken
-            wings. The result is even better taste and freshness for you and
-            your family!
+            with love and care on their very own farm. It&apos;s a pizza
+            revolution! Also, soon they&apos;ll introduce their very own farm
+            grown chicken wings. The result is even better taste and freshness
+            for you and your family!
           </p>
         </div>
       </div>
