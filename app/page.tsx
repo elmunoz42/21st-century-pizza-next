@@ -48,9 +48,9 @@ export default function Home() {
             <p
               className={`${coveredByYourGrace.className} text-center max-w-2xl mx-auto mt-4 text-primary text-2xl bg-white p-4 rounded-lg shadow-lg`}
             >
-              "Living and growing food at our farm has transformed who we are
-              and now we want to share that with you. Our pizza is made with the
-              freshest ingredients and delivered to your door."
+              &quot;Living and growing food at our farm has transformed who we
+              are and now we want to share that with you. Our pizza is made with
+              the freshest ingredients and delivered to your door.&quot;
             </p>
             <div className="h-16"></div>
           </div>
@@ -153,7 +153,8 @@ export default function Home() {
               WE ARE LISTENING
             </h1>
             <p className="text-center max-w-2xl mx-auto mt-4  text-2xl bg-white p-4 rounded-lg shadow-lg">
-              "Check us out on Instagram for special deals, news and more..."
+              &quot;Check us out on Instagram for special deals, news and
+              more...&quot;
             </p>
             <Link
               href="/order-online"
