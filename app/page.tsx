@@ -17,7 +17,7 @@ export default function Home() {
         style={{ backgroundImage: `url('/ai-pizza-hero.jpg')` }}
       >
         <h2
-          className={`${coveredByYourGrace.className} text-4xl text-primary bg-white px-4`}
+          className={`${coveredByYourGrace.className} text-4xl text-primary bg-white px-4 my-4 z-10`}
         >
           naturally fresh
         </h2>
@@ -152,9 +152,7 @@ export default function Home() {
             <h1 className="text-6xl font-bold text-white text-center mt-8">
               WE ARE LISTENING
             </h1>
-            <p
-              className={`${coveredByYourGrace.className} text-center max-w-2xl mx-auto mt-4 text-primary text-2xl bg-white p-4 rounded-lg shadow-lg`}
-            >
+            <p className="text-center max-w-2xl mx-auto mt-4  text-2xl bg-white p-4 rounded-lg shadow-lg">
               "Check us out on Instagram for special deals, news and more..."
             </p>
             <Link

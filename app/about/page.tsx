@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import { Covered_By_Your_Grace } from "next/font/google";
+import Image from "next/image";
 
 const coveredByYourGrace = Covered_By_Your_Grace({
   weight: "400",
@@ -11,6 +12,13 @@ const About: NextPage = () => {
     <main className="bg-primary">
       <div className="relative">
         <div className="container flex flex-col items-center justify-center py-8">
+          <Image
+            width={500}
+            alt="21st Century Logo"
+            height={500}
+            src="/21st-cent-new-logo.png"
+            className="my-8"
+          />
           <h2
             className={`${coveredByYourGrace.className} text-4xl text-center text-primary`}
           >
@@ -34,7 +42,7 @@ const About: NextPage = () => {
           </p>
         </div>
       </div>
-      <div className="container mt-4 flex justify-center">
+      <div className="container flex justify-center my-4">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.6659284668544!2d-122.68923872341507!3d45.51680322992698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950a1bca844f8b%3A0xbf2d36da40c169e9!2s21st%20Century%20Pizza!5e0!3m2!1sen!2sus!4v1716145265456!5m2!1sen!2sus"
           width="650"
@@ -45,6 +53,7 @@ const About: NextPage = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
+      <br></br>
     </main>
   );
 };
