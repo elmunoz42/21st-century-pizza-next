@@ -154,7 +154,9 @@ export default function Home() {
             </h1>
             <p className="text-center max-w-2xl mx-auto mt-4  text-2xl bg-white p-4 rounded-lg shadow-lg">
               &quot;Check us out on Instagram for special deals, news and
-              more...&quot;
+              more... wether it&apos;s pizza week, a custom pizza competitions
+              or time sensitive deals we strive to keep things fresh on social
+              media just like we do in the kitchen.&quot;
             </p>
             <Link
               href="/order-online"

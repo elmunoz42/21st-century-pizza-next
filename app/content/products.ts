@@ -1,27 +1,27 @@
 export const PRODUCTS = [
   {
     image: "/products/21CenturyPizza_21CenturyComboPizza.jpg",
-    title: "21st Century Combo Pizza",
+    title: "21st Century Combo",
     description:
-      "Delicious pie with sausage, pepperoni, olives, peppers and mozzarella.",
+      "Delicious pie with sausage, pepperoni, salami, black olives, green bell peppers and white onions.",
   },
   {
     image: "/products/21CenturyPizza_21CenturyMargheritaPizza.jpg",
-    title: "21st Century Margherita Pizza",
+    title: "21st Century Margherita",
     description:
-      "Classic Italian pizza topped with fresh tomatoes, mozzarella cheese, and basil leaves.",
+      "Classic Italian pizza topped with fresh tomatoes, basil leaves and garlic infused drizzle",
   },
   {
     image: "/products/21CenturyPizza_21CenturyVeggiePizza.jpg",
-    title: "21st Century Veggie Pizza",
+    title: "21st Century Veggie",
     description:
-      "A vegetarian delight loaded with bell peppers, onions, mushrooms, and olives on a tomato sauce base.",
+      "A vegetarian delight loaded with spinach, artichoke, sundried tomatoes, black olives, red bell peppers and feta cheese.",
   },
   {
     image: "/products/21CenturyPizza_AllMeatPizza.jpg",
-    title: "All Meat Pizza",
+    title: "All Meat",
     description:
-      "A meat lover’s dream - pepperoni, sausage, ham, and bacon make this pizza a deliciously meaty treat.",
+      "A meat lover’s dream - pepperoni, ground beef, salami and ham make this pizza a deliciously meaty treat.",
   },
   {
     image: "/products/21CenturyPizza_BBQBites.jpg",
@@ -31,9 +31,9 @@ export const PRODUCTS = [
   },
   {
     image: "/products/21CenturyPizza_BBQChickenPizza.jpg",
-    title: "BBQ Chicken Pizza",
+    title: "BBQ Chicken",
     description:
-      "A tangy BBQ base topped with grilled chicken pieces, red onions, and melted cheese.",
+      "Farm fresh chicken bites with white onions, green bell peppers, pineapple with a rich BBQ sauce.",
   },
   {
     image: "/products/21CenturyPizza_CaesarSalad.jpg",
@@ -49,7 +49,7 @@ export const PRODUCTS = [
   },
   {
     image: "/products/21CenturyPizza_ChickenBaconWhite.jpg",
-    title: "Chicken Bacon White Pizza",
+    title: "Chicken Bacon White",
     description:
       "A creamy white sauce base topped with tender chicken strips, crispy bacon, and a blend of cheeses.",
   },
@@ -79,7 +79,7 @@ export const PRODUCTS = [
   },
   {
     image: "/products/21CenturyPizza_Ham&PineapplePizza.jpg",
-    title: "Ham & Pineapple Pizza",
+    title: "Ham & Pineapple",
     description:
       "A sweet and savory pizza with juicy pineapple chunks and sliced ham on a classic tomato base.",
   },
