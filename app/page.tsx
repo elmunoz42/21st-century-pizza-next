@@ -20,19 +20,19 @@ export default function Home() {
         <h2
           className={`${coveredByYourGrace.className} text-4xl text-primary bg-white px-4 my-4 z-10`}
         >
-          naturally fresh
+          {HOME_COPY[0].accentMessage}
         </h2>
         <h1 className="text-6xl font-bold text-white z-10 mb-4">
-          21ST CENTURY PIZZA
+          {HOME_COPY[0].title}
         </h1>
         <h2 className="text-4xl font-bold text-white z-10 mb-8">
-          Farm to table pizza at your doorstep.
+          {HOME_COPY[0].subtitle}
         </h2>
         <Link
           href="/menu"
           className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded inline-block z-20"
         >
-          VIEW OUR MENU
+          {HOME_COPY[0].buttonText}
         </Link>
         <div className="absolute inset-0 bg-black opacity-30"></div>
       </div>
@@ -44,14 +44,12 @@ export default function Home() {
 
             <div className="h-16"></div>
             <h2 className="text-4xl text-white font-bold text-center mt-8">
-              Food is Our Love Language...
+              {HOME_COPY[1].title}
             </h2>
             <p
               className={`${coveredByYourGrace.className} text-center max-w-2xl mx-auto mt-4 text-primary text-2xl bg-white p-4 rounded-lg shadow-lg`}
             >
-              &quot;Living and growing food at our farm has transformed who we
-              are and now we want to share that with you. Our pizza is made with
-              the freshest ingredients and delivered to your door.&quot;
+              {HOME_COPY[1].description}
             </p>
             <div className="h-16"></div>
           </div>
@@ -73,10 +71,10 @@ export default function Home() {
           <h2
             className={`${coveredByYourGrace.className} text-4xl text-primary text-center`}
           >
-            <span className="bg-white px-4">gourmet ingredients</span>
+            <span className="bg-white px-4">{HOME_COPY[2].accentMessage}</span>
           </h2>
           <h1 className="text-6xl font-bold text-white text-center mt-8">
-            MORE THAN JUST A PIZZA SHOP
+            {HOME_COPY[2].title}
           </h1>
         </div>
         {/* Section Content  */}
@@ -105,10 +103,10 @@ export default function Home() {
                 {product.description}
               </p>
               <Link
-                href="/order-online"
+                href={HOME_COPY[2].buttonLink || "/order-online"}
                 className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded inline-block z-20 mt-4"
               >
-                ORDER ONLINE
+                {HOME_COPY[2].buttonText}
               </Link>
             </div>
           ))}
@@ -147,23 +145,20 @@ export default function Home() {
               className={`${coveredByYourGrace.className} text-4xl text-white text-center`}
             >
               <span className="bg-white px-4 text-primary">
-                we love our fans
+                {HOME_COPY[3].accentMessage}
               </span>
             </h2>
             <h1 className="text-6xl font-bold text-white text-center mt-8">
-              WE ARE LISTENING
+              {HOME_COPY[3].title}
             </h1>
             <p className="text-center max-w-2xl mx-auto mt-4  text-2xl bg-white p-4 rounded-lg shadow-lg">
-              &quot;Check us out on Instagram for special deals, news and
-              more... wether it&apos;s pizza week, a custom pizza competitions
-              or time sensitive deals we strive to keep things fresh on social
-              media just like we do in the kitchen.&quot;
+              {HOME_COPY[3].description}
             </p>
             <Link
-              href="/order-online"
+              href={HOME_COPY[3].buttonLink || "/order-online"}
               className="bg-white hover:bg-primary-dark hover:text-white text-primary font-bold py-2 px-4 rounded inline-block z-20 mt-4"
             >
-              ORDER ONLINE
+              {HOME_COPY[3].buttonText}
             </Link>
           </div>
         </div>

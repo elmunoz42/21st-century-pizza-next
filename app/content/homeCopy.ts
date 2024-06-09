@@ -1,4 +1,3 @@
-import { PRODUCTS } from "./products";
 export const HOME_COPY = [
   {
     title: "21ST CENTURY PIZZA",
@@ -14,7 +13,7 @@ export const HOME_COPY = [
   },
   {
     title: "MORE THAN JUST A PIZZA SHOP",
-    products: PRODUCTS,
+    accentMessage: "gourmet ingredients",
     buttonText: "ORDER ONLINE",
     buttonLink: "/order-online",
   },
@@ -22,6 +21,7 @@ export const HOME_COPY = [
     title: "WE ARE LISTENING",
     description:
       "Check us out on Instagram for special deals, news and more... wether it's pizza week, a custom pizza competitions or time sensitive deals we strive to keep things fresh on social media just like we do in the kitchen.",
+    accentMessage: "we love our fans",
     buttonText: "ORDER ONLINE",
     buttonLink: "/order-online",
   },
