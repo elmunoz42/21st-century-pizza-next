@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Covered_By_Your_Grace } from "next/font/google";
 import { PRODUCTS } from ".//content/products";
+import { HOME_COPY } from ".//content/homeCopy";
 
 const coveredByYourGrace = Covered_By_Your_Grace({
   weight: "400",
