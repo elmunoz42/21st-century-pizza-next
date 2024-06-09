@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Covered_By_Your_Grace } from "next/font/google";
 import { PRODUCTS } from ".//content/products";
 import { HOME_COPY } from ".//content/homeCopy";
+import { HeroSection } from "./components/molecules/HeroSection";
+import { DescriptionSection } from "./components/molecules/DescriptionSection";
 
 const coveredByYourGrace = Covered_By_Your_Grace({
   weight: "400",
@@ -13,57 +15,9 @@ export default function Home() {
   return (
     <main>
       {/* Hero Section  */}
-      <div
-        className="relative flex flex-col items-center justify-center min-h-screen bg-cover bg-center"
-        style={{ backgroundImage: `url('/ai-pizza-hero.jpg')` }}
-      >
-        <h2
-          className={`${coveredByYourGrace.className} text-4xl text-primary bg-white px-4 my-4 z-10`}
-        >
-          {HOME_COPY[0].accentMessage}
-        </h2>
-        <h1 className="text-6xl font-bold text-white z-10 mb-4">
-          {HOME_COPY[0].title}
-        </h1>
-        <h2 className="text-4xl font-bold text-white z-10 mb-8">
-          {HOME_COPY[0].subtitle}
-        </h2>
-        <Link
-          href="/menu"
-          className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded inline-block z-20"
-        >
-          {HOME_COPY[0].buttonText}
-        </Link>
-        <div className="absolute inset-0 bg-black opacity-30"></div>
-      </div>
+      <HeroSection copy={HOME_COPY[0]} font={coveredByYourGrace} />
       {/* Second Section  */}
-      <div className="relative bg-bottom  bg-primary">
-        <div className="flex container relative">
-          <div className="w-1/2 py-8 ps-8 flex flex-col items-center justify-center">
-            {/* <div className="h-32"></div> */}
-
-            <div className="h-16"></div>
-            <h2 className="text-4xl text-white font-bold text-center mt-8">
-              {HOME_COPY[1].title}
-            </h2>
-            <p
-              className={`${coveredByYourGrace.className} text-center max-w-2xl mx-auto mt-4 text-primary text-2xl bg-white p-4 rounded-lg shadow-lg`}
-            >
-              {HOME_COPY[1].description}
-            </p>
-            <div className="h-16"></div>
-          </div>
-          <div className="relative w-full h-64 flex items-center justify-center">
-            <Image
-              src="/pizza-heart.png"
-              alt="Description of image"
-              width={400}
-              height={200}
-              className="border border-white border-2"
-            />
-          </div>
-        </div>
-      </div>
+      <DescriptionSection copy={HOME_COPY[1]} />
       {/* Third Section  */}
       <div className="relative bg-[url('/ai-tomato-plant.jpg')] bg-cover py-8">
         {/* Section Title  */}
