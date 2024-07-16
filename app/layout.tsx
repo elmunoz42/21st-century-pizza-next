@@ -22,13 +22,13 @@ export default function RootLayout({
     <html lang="en">
       <GoogleAnalytics gaId="G-VNGY83XGV3" />
       <body className={oswald.className}>
-        <nav className="flex justify-between items-center p-4 bg-white">
+        <nav className="flex justify-between px-8 items-center tx-white" style={{backgroundColor: "#200D2E", color: 'white'}}>
           <Image
-            src="/21cp-logo-rooster.png"
+            src="/21st-century-pizza-logo2.png"
             width="800"
             height="300"
             alt="Logo"
-            className="h-16 w-auto"
+            className="h-24 w-auto"
           />
           <div className="space-x-4">
             <Link href="/" className={`p-2 ${styles.link}`}>
