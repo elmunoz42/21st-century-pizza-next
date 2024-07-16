@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Oswald } from "next/font/google";
 import "./globals.css";
 import styles from ".//styles/CustomLink.module.css";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -19,14 +20,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-VNGY83XGV3" />
       <body className={oswald.className}>
         <nav className="flex justify-between items-center p-4 bg-white">
           <Image
-            src="/simplified-logo-v1.jpg"
+            src="/21cp-logo-rooster.png"
             width="800"
-            height="200"
+            height="300"
             alt="Logo"
-            className="h-8 w-auto"
+            className="h-16 w-auto"
           />
           <div className="space-x-4">
             <Link href="/" className={`p-2 ${styles.link}`}>
@@ -37,6 +39,9 @@ export default function RootLayout({
             </Link>
             <Link href="/menu" className={`p-2 ${styles.link}`}>
               MENU
+            </Link>
+            <Link href="/menu" className={`p-2 ${styles.link}`}>
+              MERCH
             </Link>
             <Link href="/contact" className={`p-2 ${styles.link}`}>
               CALL
