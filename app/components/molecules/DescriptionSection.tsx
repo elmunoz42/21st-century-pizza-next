@@ -2,8 +2,8 @@ import Image from "next/image";
 
 interface DescriptionSectionProps {
   copy: {
-    title: string;
-    description: string;
+    title?: string;
+    description?: string;
   };
 }
 

@@ -3,18 +3,18 @@ import Link from "next/link";
 
 interface ProductSectionProps {
   copy: {
-    accentMessage: string;
-    title: string;
-    buttonLink: string;
-    buttonText: string;
+    accentMessage?: string;
+    title?: string;
+    buttonLink?: string;
+    buttonText?: string;
   };
   font: {
     className: string;
   };
   products: {
-    image: string;
-    title: string;
-    description: string;
+    image?: string;
+    title?: string;
+    description?: string;
   }[];
 }
 

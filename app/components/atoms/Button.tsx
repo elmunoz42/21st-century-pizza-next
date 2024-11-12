@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 interface ButtonProps {
-  href: string;
+  href?: string;
   className?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -12,7 +12,7 @@ export const Button: React.FC<ButtonProps> = ({
   children,
 }) => (
   <Link
-    href={href}
+    href={href ? href : "#"}
     className={`bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded inline-block ${className}`}
   >
     {children}

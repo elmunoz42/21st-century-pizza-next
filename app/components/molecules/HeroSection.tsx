@@ -9,7 +9,7 @@ interface HeroSectionProps {
     buttonLink?: string;
   };
   font: {
-    className?: string;
+    className: string;
   };
 }
 

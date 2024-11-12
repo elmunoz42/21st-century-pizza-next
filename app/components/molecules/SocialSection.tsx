@@ -3,16 +3,16 @@ import Link from "next/link";
 
 interface SocialSectionProps {
   copy: {
-    accentMessage: string;
-    title: string;
-    description: string;
-    buttonLink: string;
-    buttonText: string;
+    accentMessage?: string;
+    title?: string;
+    description?: string;
+    buttonLink?: string;
+    buttonText?: string;
   };
   font: {
     className: string;
   };
-  iframeSrc: string;
+  iframeSrc?: string;
 }
 
 export const SocialSection: React.FC<SocialSectionProps> = ({
