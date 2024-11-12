@@ -1,6 +1,10 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import { Covered_By_Your_Grace } from "next/font/google";
+
+const PLACEHOLDER_IMAGE = '/placeholder.png'; 
+
 const coveredByYourGrace = Covered_By_Your_Grace({
   weight: "400",
   subsets: ["latin"],
@@ -46,12 +50,14 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
         >
           <div className="items-center justify-center">
             <Image
-              src={product.image}
-              alt={product.title}
+              src={product.image || PLACEHOLDER_IMAGE}
+              alt={product.title || 'Product Image'}
               width={400}
               height={400}
-              objectFit="cover"
-              className="mx-auto"
+              className="mx-auto object-cover" // Moved objectFit to className
+              priority={index < 2} // Prioritize loading first 2 images
+              blurDataURL={PLACEHOLDER_IMAGE} // Add blur placeholder
+              placeholder="blur"
             />
           </div>
           <h2
