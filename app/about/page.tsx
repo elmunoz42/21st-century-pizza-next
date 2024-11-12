@@ -12,7 +12,8 @@ const About: NextPage = () => {
     <main
       className="bg-primary"
       style={{
-        backgroundImage: `url('/farm-field.jpg')`,
+        backgroundImage: `url('/rural-w-pdx-view.png')`,
+        // backgroundImage: `url('/farm-field.jpg')`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
@@ -23,7 +24,7 @@ const About: NextPage = () => {
             width={500}
             alt="21st Century Logo"
             height={500}
-            src="/21st-cent-new-logo.png"
+            src="/21st-century-pizza-logo2.png"
             className="my-8"
           />
           <h2
