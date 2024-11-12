@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import { Covered_By_Your_Grace } from "next/font/google";
+const coveredByYourGrace = Covered_By_Your_Grace({
+  weight: "400",
+  subsets: ["latin"],
+});
 interface ProductSectionProps {
   copy: {
     accentMessage?: string;
@@ -20,13 +24,13 @@ interface ProductSectionProps {
 
 export const ProductSection: React.FC<ProductSectionProps> = ({
   copy,
-  font,
+  // font,
   products,
 }) => (
   <div className="relative bg-[url('/ai-tomato-plant.jpg')] bg-cover py-8">
     {/* Section Title  */}
     <div className="relative">
-      <h2 className={`${font.className} text-4xl text-primary text-center`}>
+      <h2 className={`${coveredByYourGrace.className} text-4xl text-primary text-center`}>
         <span className="bg-white px-4">{copy.accentMessage}</span>
       </h2>
       <h1 className="text-6xl font-bold text-white text-center mt-8">
@@ -51,7 +55,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
             />
           </div>
           <h2
-            className={`${font.className} text-3xl font-bold mt-4 text-primary-dark`}
+            className={`${coveredByYourGrace.className} text-3xl font-bold mt-4 text-primary-dark`}
           >
             {product.title}
           </h2>
