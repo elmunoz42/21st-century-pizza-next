@@ -48,7 +48,7 @@ export const SocialSection: React.FC<SocialSectionProps> = ({
         ></iframe>
       </div>
       <div className="flex-1 flex flex-col items-center justify-center">
-        <h2 className={`${font.className} text-4xl text-white text-center`}>
+        <h2 className={`${font.className } text-4xl text-white text-center`}>
           <span className="bg-white px-4 text-primary">
             {copy.accentMessage}
           </span>
