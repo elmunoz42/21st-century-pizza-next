@@ -21,6 +21,7 @@ interface ProductSectionProps {
   };
   products: {
     image?: string;
+    featured?: boolean;
     title?: string;
     description?: string;
   }[];
@@ -44,6 +45,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
     {/* Section Content  */}
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 container text-center my-8">
       {products.map((product, index) => (
+        product.featured && (
         <div
           key={index}
           className="transform transition-transform duration-500 hover:scale-105 bg-white p-4 rounded-lg shadow-lg py-8 px-4 text-center bg-opacity-90 mx-8"
@@ -75,6 +77,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
             {copy.buttonText}
           </Link>
         </div>
+        )
       ))}
     </div>
   </div>

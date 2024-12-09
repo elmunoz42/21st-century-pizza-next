@@ -5,7 +5,8 @@ export const PRODUCTS = [
     description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base.",
     excerpt: "Garlic Cheese Bread",
     category: "appetizer",
-    price: 6.50
+    price: 6.50,
+    featured: true
   },
   {
     image: "/products/21CenturyPizza_DoughBites.jpg",
@@ -13,7 +14,8 @@ export const PRODUCTS = [
     description: "Bite-sized pieces of dough baked to perfection and served with a choice of dipping sauces.",
     excerpt: "10 bytes, 1 sauce",
     category: "appetizer",
-    price: 5.00
+    price: 5.00,
+    featured: true
   },
    {
     image: "/products/21CenturyPizza_CaesarSalad.jpg",
@@ -24,7 +26,8 @@ export const PRODUCTS = [
     prices: {
       small: 6.00,
       large: 9.00
-    }
+    },
+    featured: false
   },
     {
     image: "/products/21CenturyPizza_HouseSalad.jpg",
@@ -35,7 +38,8 @@ export const PRODUCTS = [
     prices: {
       small: 6.00,
       large: 9.00
-    }
+    },
+    featured: false
   },
   {
     image: "/products/21CenturyPizza_ItalianSalad.jpg",
@@ -46,7 +50,8 @@ export const PRODUCTS = [
     prices: {
       small: 6.00,
       large: 9.00
-    }
+    },
+    featured: true
   },
   {
     image: "/products/21CenturyPizza_MediterraneanSalad.jpg",
@@ -57,7 +62,8 @@ export const PRODUCTS = [
     prices: {
       small: 6.00,
       large: 9.00
-    }
+    },
+    featured: true
   },
   {
     image: "/products/21CenturyPizza_21CenturyComboPizza.jpg",
@@ -76,7 +82,8 @@ export const PRODUCTS = [
       medium: "14\"",
       large: "18\"",
       glutenFree: "10\""
-    }
+    },
+    featured: true
   },
   {
     image: "/products/21CenturyPizza_21CenturyMargheritaPizza.jpg",
@@ -95,7 +102,8 @@ export const PRODUCTS = [
       medium: "14\"",
       large: "18\"",
       glutenFree: "10\""
-    }
+    },
+    featured: true
   },
   {
     image: "/products/21CenturyPizza_21CenturyVeggiePizza.jpg",
@@ -114,7 +122,8 @@ export const PRODUCTS = [
       medium: "14\"",
       large: "18\"",
       glutenFree: "10\""
-    }
+    },
+    featured: true
   },
   {
     image: "/products/21CenturyPizza_AllMeatPizza.jpg",
@@ -133,7 +142,8 @@ export const PRODUCTS = [
       medium: "14\"",
       large: "18\"",
       glutenFree: "10\""
-    }
+    },
+    featured: true
   },
   {
     image: "/products/21CenturyPizza_BBQChickenPizza.jpg",
@@ -152,7 +162,8 @@ export const PRODUCTS = [
       medium: "14\"",
       large: "18\"",
       glutenFree: "10\""
-    }
+    },
+    featured: true
   },
   {
     image: "/products/21CenturyPizza_ChickenBaconWhite.jpg",
@@ -171,7 +182,8 @@ export const PRODUCTS = [
       medium: "14\"",
       large: "18\"",
       glutenFree: "10\""
-    }
+    },
+    featured: true
   },
   {
     image: "/products/21CenturyPizza_Ham&PineapplePizza.jpg",
@@ -190,7 +202,8 @@ export const PRODUCTS = [
       medium: "14\"",
       large: "18\"",
       glutenFree: "10\""
-    }
+    },
+    featured: true
   },
  {
     image: "/products/drinks/coke.jpg",
@@ -204,7 +217,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/diet-coke.jpg",
@@ -218,7 +232,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/sprite.jpg",
@@ -232,7 +247,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/dr-pepper.jpg",
@@ -246,7 +262,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/diet-dr-pepper.jpg",
@@ -260,7 +277,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/cherry-coke.jpg",
@@ -274,7 +292,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/mountain-dew.jpg",
@@ -288,7 +307,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/root-beer.jpg",
@@ -302,7 +322,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/squirt.jpg",
@@ -316,7 +337,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/ruby-red-squirt.jpg",
@@ -330,7 +352,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/ginger-ale.jpg",
@@ -344,7 +367,8 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/shirley-temple.jpg",
@@ -358,62 +382,71 @@ export const PRODUCTS = [
     sizes: {
       can: "12 oz Can",
       sixPack: "6 Pack"
-    }
+    },
+    featured: false
   },
   {
     image: "/products/drinks/water.jpg",
     title: "Bottled Water",
     description: "Pure bottled water",
     category: "drinks",
-    price: 1.00
+    price: 1.00,
+    featured: false
   },
   {
     image: "/products/sauces/red-sauce.jpg",
     title: "Homemade Red Sauce",
     description: "Our classic marinara sauce",
     category: "sauces",
-    price: 1.00
+    price: 1.00,
+    featured: false
   },
   {
     image: "/products/sauces/white-sauce.jpg",
     title: "Parmesan Garlic White Sauce",
     description: "Creamy garlic parmesan sauce",
     category: "sauces",
-    price: 1.00
+    price: 1.00,
+    featured: true
   },
   {
     image: "/products/sauces/ranch.jpg",
     title: "Ranch",
     description: "Classic ranch dressing",
     category: "sauces",
-    price: 1.00
+    price: 1.00,
+    featured: false
   },
   {
     image: "/products/sauces/pesto-red-mix.jpg",
     title: "Pesto Red Mix",
     description: "Blend of pesto and marinara sauce",
     category: "sauces",
-    price: 1.00
+    price: 1.00,
+    featured: false
   },
   {
     image: "/products/sauces/pesto.jpg",
     title: "Pesto",
     description: "Traditional basil pesto",
     category: "sauces",
-    price: 1.00
+    price: 1.00,
+    featured: false
   },
   {
     image: "/products/sauces/bbq-sauce.jpg",
     title: "BBQ Sauce",
     description: "Sweet and tangy BBQ sauce",
     category: "sauces",
-    price: 1.00
+    price: 1.00,
+    featured: true
   },
   {
     image: "/products/sauces/hot-sauce.jpg",
     title: "Frank's RedHot",
     description: "Classic hot sauce",
     category: "sauces",
-    price: 1.00
+    price: 1.00,
+    featured: false
   }
 ];
