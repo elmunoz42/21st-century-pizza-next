@@ -54,24 +54,15 @@ interface ProductTableSectionProps {
 }
 
 const PriceDisplay: React.FC<{ product: Product }> = ({ product }) => {
-  const [selectedSize, setSelectedSize] = useState<string>(
-    product.prices?.small ? 'small' : 
-    product.prices?.regular ? 'regular' : 
-    'default'
-  );
+  // Updated initial state selection logic
+  const getInitialSize = (product: Product): string => {
+    if (product.prices?.can) return 'can';  // For drinks, default to 'can'
+    if (product.prices?.small) return 'small';  // For pizzas, default to 'small'
+    if (product.prices?.regular) return 'regular';  // For other items with 'regular' size
+    return Object.keys(product.prices || {})[0] || 'default';  // Fallback to first available size or default
+  };
 
-  // Handle products with multiple options (like drinks)
-  if (Array.isArray(product.options) && product.options.length > 0) {
-    return (
-      <div>
-        {product.options.map((option, index) => (
-          <div key={index} className="text-sm">
-            {option.name}: ${typeof option.price === 'number' ? option.price.toFixed(2) : 'N/A'}
-          </div>
-        ))}
-      </div>
-    );
-  }
+  const [selectedSize, setSelectedSize] = useState<string>(getInitialSize(product));
 
   // Handle single price products
   if (typeof product.price === 'number') {

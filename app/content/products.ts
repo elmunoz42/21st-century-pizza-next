@@ -1,4 +1,64 @@
 export const PRODUCTS = [
+    {
+    image: "/products/21CenturyPizza_GarlicCheesyBread.jpg",
+    title: "Garlic Cheesy Bread",
+    description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base.",
+    excerpt: "Garlic Cheese Bread",
+    category: "appetizer",
+    price: 6.50
+  },
+  {
+    image: "/products/21CenturyPizza_DoughBites.jpg",
+    title: "Dough Bites",
+    description: "Bite-sized pieces of dough baked to perfection and served with a choice of dipping sauces.",
+    excerpt: "10 bytes, 1 sauce",
+    category: "appetizer",
+    price: 5.00
+  },
+   {
+    image: "/products/21CenturyPizza_CaesarSalad.jpg",
+    title: "Caesar Salad",
+    description: "Crisp romaine lettuce tossed in Caesar dressing topped with croutons and parmesan cheese.",
+    excerpt: "Romaine lettuce and homemade croutons dressed with Parmesan cheese, olive oil, and black pepper. Served with a lemon wedge and a side of Caesar Dressing.",
+    category: "salad",
+    prices: {
+      small: 6.00,
+      large: 9.00
+    }
+  },
+    {
+    image: "/products/21CenturyPizza_HouseSalad.jpg",
+    title: "House Salad",
+    description: "Fresh garden salad with crisp vegetables and homemade croutons.",
+    excerpt: "Iceberg Lettuce with Mushroom, Red Onion, Green Bell Pepper, Tomato, and Homemade Croutons",
+    category: "salad",
+    prices: {
+      small: 6.00,
+      large: 9.00
+    }
+  },
+  {
+    image: "/products/21CenturyPizza_ItalianSalad.jpg",
+    title: "Italian Salad",
+    description: "Traditional Italian salad with premium toppings and house cheese blend.",
+    excerpt: "Romaine Iceberg mix with Salami, Black Olive, Red Bell Pepper, Pepperoncini, and House Cheese Blend",
+    category: "salad",
+    prices: {
+      small: 6.00,
+      large: 9.00
+    }
+  },
+  {
+    image: "/products/21CenturyPizza_MediterraneanSalad.jpg",
+    title: "Mediterranean Salad",
+    description: "Mediterranean-style salad with fresh vegetables and feta cheese.",
+    excerpt: "Spinach Romaine Mix with Artichoke, Black Olive, Red Onion, Feta, and Tomato",
+    category: "salad",
+    prices: {
+      small: 6.00,
+      large: 9.00
+    }
+  },
   {
     image: "/products/21CenturyPizza_21CenturyComboPizza.jpg",
     title: "21st Century Combo",
@@ -131,33 +191,6 @@ export const PRODUCTS = [
       large: "18\"",
       glutenFree: "10\""
     }
-  },
-  {
-    image: "/products/21CenturyPizza_CaesarSalad.jpg",
-    title: "Caesar Salad",
-    description: "Crisp romaine lettuce tossed in Caesar dressing topped with croutons and parmesan cheese.",
-    excerpt: "Romaine lettuce and homemade croutons dressed with Parmesan cheese, olive oil, and black pepper. Served with a lemon wedge and a side of Caesar Dressing.",
-    category: "salad",
-    prices: {
-      small: 6.00,
-      large: 9.00
-    }
-  },
-  {
-    image: "/products/21CenturyPizza_GarlicCheesyBread.jpg",
-    title: "Garlic Cheesy Bread",
-    description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base.",
-    excerpt: "Garlic Cheese Bread",
-    category: "appetizer",
-    price: 6.50
-  },
-  {
-    image: "/products/21CenturyPizza_DoughBites.jpg",
-    title: "Dough Bites",
-    description: "Bite-sized pieces of dough baked to perfection and served with a choice of dipping sauces.",
-    excerpt: "10 bytes, 1 sauce",
-    category: "appetizer",
-    price: 5.00
   },
  {
     image: "/products/drinks/coke.jpg",
