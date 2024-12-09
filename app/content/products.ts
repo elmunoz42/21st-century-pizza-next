@@ -149,9 +149,7 @@ export const PRODUCTS = [
     description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base.",
     excerpt: "Garlic Cheese Bread",
     category: "appetizer",
-    prices: {
-      regular: 6.50
-    }
+    price: 6.50
   },
   {
     image: "/products/21CenturyPizza_DoughBites.jpg",
@@ -159,52 +157,230 @@ export const PRODUCTS = [
     description: "Bite-sized pieces of dough baked to perfection and served with a choice of dipping sauces.",
     excerpt: "10 bytes, 1 sauce",
     category: "appetizer",
-    prices: {
-      regular: 5.00
-    }
+    price: 5.00
   },
-  {
+ {
+    image: "/products/drinks/coke.jpg",
+    title: "Coca-Cola",
+    description: "Classic Coca-Cola",
     category: "drinks",
-    title: "Soft Drinks",
-    description: "Choose from our selection of refreshing beverages",
-    options: [
-      { name: "Coke", price: 1.50 },
-      { name: "Diet Coke", price: 1.50 },
-      { name: "Sprite", price: 1.50 },
-      { name: "Dr Pepper", price: 1.50 },
-      { name: "Diet Dr Pepper", price: 1.50 },
-      { name: "Cherry Coke", price: 1.50 },
-      { name: "Mountain Dew", price: 1.50 },
-      { name: "Root Beer", price: 1.50 },
-      { name: "Squirt", price: 1.50 },
-      { name: "Ruby Red Squirt", price: 1.50 },
-      { name: "Ginger Ale", price: 1.50 },
-      { name: "Shirley Temple", price: 1.50 },
-      { name: "Bottled Water", price: 1.00 }
-    ],
-    sizes: {
-      can: "12 oz",
-      sixPack: "6 Pack"
-    },
     prices: {
       can: 1.50,
-      sixPack: 7.00,
-      water: 1.00
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
     }
   },
   {
+    image: "/products/drinks/diet-coke.jpg",
+    title: "Diet Coke",
+    description: "Zero-calorie Coca-Cola",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/sprite.jpg",
+    title: "Sprite",
+    description: "Lemon-lime flavored soda",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/dr-pepper.jpg",
+    title: "Dr Pepper",
+    description: "Original Dr Pepper",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/diet-dr-pepper.jpg",
+    title: "Diet Dr Pepper",
+    description: "Zero-calorie Dr Pepper",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/cherry-coke.jpg",
+    title: "Cherry Coke",
+    description: "Cherry-flavored Coca-Cola",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/mountain-dew.jpg",
+    title: "Mountain Dew",
+    description: "Original Mountain Dew",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/root-beer.jpg",
+    title: "Root Beer",
+    description: "Classic root beer",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/squirt.jpg",
+    title: "Squirt",
+    description: "Citrus soda",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/ruby-red-squirt.jpg",
+    title: "Ruby Red Squirt",
+    description: "Ruby red grapefruit citrus soda",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/ginger-ale.jpg",
+    title: "Ginger Ale",
+    description: "Classic ginger ale",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/shirley-temple.jpg",
+    title: "Shirley Temple",
+    description: "Non-alcoholic cocktail with ginger ale and grenadine",
+    category: "drinks",
+    prices: {
+      can: 1.50,
+      sixPack: 7.00
+    },
+    sizes: {
+      can: "12 oz Can",
+      sixPack: "6 Pack"
+    }
+  },
+  {
+    image: "/products/drinks/water.jpg",
+    title: "Bottled Water",
+    description: "Pure bottled water",
+    category: "drinks",
+    price: 1.00
+  },
+  {
+    image: "/products/sauces/red-sauce.jpg",
+    title: "Homemade Red Sauce",
+    description: "Our classic marinara sauce",
     category: "sauces",
-    title: "Side Sauces",
-    description: "Additional sauces for dipping",
-    price: 1.00,
-    options: [
-      "Homemade Red Sauce",
-      "Parmesan Garlic White Sauce",
-      "Ranch",
-      "Pesto Red Mix",
-      "Pesto",
-      "BBQ Sauce",
-      "Franks Red Hot"
-    ]
+    price: 1.00
+  },
+  {
+    image: "/products/sauces/white-sauce.jpg",
+    title: "Parmesan Garlic White Sauce",
+    description: "Creamy garlic parmesan sauce",
+    category: "sauces",
+    price: 1.00
+  },
+  {
+    image: "/products/sauces/ranch.jpg",
+    title: "Ranch",
+    description: "Classic ranch dressing",
+    category: "sauces",
+    price: 1.00
+  },
+  {
+    image: "/products/sauces/pesto-red-mix.jpg",
+    title: "Pesto Red Mix",
+    description: "Blend of pesto and marinara sauce",
+    category: "sauces",
+    price: 1.00
+  },
+  {
+    image: "/products/sauces/pesto.jpg",
+    title: "Pesto",
+    description: "Traditional basil pesto",
+    category: "sauces",
+    price: 1.00
+  },
+  {
+    image: "/products/sauces/bbq-sauce.jpg",
+    title: "BBQ Sauce",
+    description: "Sweet and tangy BBQ sauce",
+    category: "sauces",
+    price: 1.00
+  },
+  {
+    image: "/products/sauces/hot-sauce.jpg",
+    title: "Frank's RedHot",
+    description: "Classic hot sauce",
+    category: "sauces",
+    price: 1.00
   }
 ];
