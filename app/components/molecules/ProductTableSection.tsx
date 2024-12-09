@@ -42,41 +42,36 @@ export const ProductTableSection: React.FC<ProductTableSectionProps> = ({
         {copy.title}
       </h1>
     </div>
-    {/* Section Content  */}
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 container text-center my-8">
-      {products.map((product, index) => (
-        <div
-          key={index}
-          className="transform transition-transform duration-500 hover:scale-105 bg-white p-4 rounded-lg shadow-lg py-8 px-4 text-center bg-opacity-90 mx-8"
-        >
-          <div className="items-center justify-center">
+    {/* Section Content */}
+    <div className="container my-8">
+      <table className="min-w-full bg-white">
+      <thead>
+        <tr>
+        <th className="py-2 px-4 border-b-2 border-gray-300 text-left leading-tight">Image</th>
+        <th className="py-2 px-4 border-b-2 border-gray-300 text-left leading-tight">Title</th>
+        <th className="py-2 px-4 border-b-2 border-gray-300 text-left leading-tight">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {products.map((product, index) => (
+        <tr key={index} className="hover:bg-gray-100">
+          <td className="py-2 px-4 border-b border-gray-300">
+          <div className="w-12 h-12 bg-gray-200 bg-opacity-50 flex items-center justify-center">
             <Image
-              src={product.image || PLACEHOLDER_IMAGE}
-              alt={product.title || 'Product Image'}
-              width={100}
-              height={100}
-              className="mx-auto object-cover" // Moved objectFit to className
-              priority={index < 2} // Prioritize loading first 2 images
-              blurDataURL={PLACEHOLDER_IMAGE} // Add blur placeholder
-              placeholder="blur"
+            src={product.image || PLACEHOLDER_IMAGE}
+            alt={product.title || 'Product Image'}
+            width={50}
+            height={50}
+            className="object-cover"
             />
           </div>
-          <h2
-            className={`${coveredByYourGrace.className} text-3xl font-bold mt-4 text-primary-dark`}
-          >
-            {product.title}
-          </h2>
-          <p className="max-w-sm text-center mx-auto text-1">
-            {product.description}
-          </p>
-          <Link
-            href={copy.buttonLink || "/order-online"}
-            className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded inline-block z-20 mt-4"
-          >
-            {copy.buttonText}
-          </Link>
-        </div>
-      ))}
+          </td>
+          <td className="py-2 px-4 border-b border-gray-300">{product.title}</td>
+          <td className="py-2 px-4 border-b border-gray-300">{product.description}</td>
+        </tr>
+        ))}
+      </tbody>
+      </table>
     </div>
   </div>
 );
