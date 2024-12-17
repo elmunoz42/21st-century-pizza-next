@@ -11,6 +11,7 @@ const coveredByYourGrace = Covered_By_Your_Grace({
 });
 
 interface ProductPrices {
+  can?: number;
   small?: number;
   medium?: number;
   large?: number;
@@ -114,7 +115,7 @@ export const ProductTableSection: React.FC<ProductTableSectionProps> = ({
   }, {} as Record<string, Product[]>);
 
   return (
-    <div className="relative bg-[url('/ai-tomato-plant.jpg')] bg-cover py-8">
+    <div className="relative py-8">
       {/* Section Title */}
       <div className="relative">
         <h2 className={`${coveredByYourGrace.className} text-4xl text-primary text-center`}>

@@ -1,6 +1,6 @@
 export const PRODUCTS = [
     {
-    image: "/products/21CenturyPizza_GarlicCheesyBread.jpg",
+    image: "/products/appetizer/GarlicCheesyBread.jpg",
     title: "Garlic Cheesy Bread",
     description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base.",
     excerpt: "Garlic Cheese Bread",
@@ -9,7 +9,7 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/21CenturyPizza_DoughBites.jpg",
+    image: "/products/appetizer/DoughBites.jpg",
     title: "Dough Bites",
     description: "Bite-sized pieces of dough baked to perfection and served with a choice of dipping sauces.",
     excerpt: "10 bytes, 1 sauce",
@@ -18,7 +18,7 @@ export const PRODUCTS = [
     featured: true
   },
    {
-    image: "/products/21CenturyPizza_CaesarSalad.jpg",
+    image: "/products/salad/CaesarSalad.jpg",
     title: "Caesar Salad",
     description: "Crisp romaine lettuce tossed in Caesar dressing topped with croutons and parmesan cheese.",
     excerpt: "Romaine lettuce and homemade croutons dressed with Parmesan cheese, olive oil, and black pepper. Served with a lemon wedge and a side of Caesar Dressing.",
@@ -30,7 +30,7 @@ export const PRODUCTS = [
     featured: false
   },
     {
-    image: "/products/21CenturyPizza_HouseSalad.jpg",
+    image: "/products/salad/HouseSalad.jpg",
     title: "House Salad",
     description: "Fresh garden salad with crisp vegetables and homemade croutons.",
     excerpt: "Iceberg Lettuce with Mushroom, Red Onion, Green Bell Pepper, Tomato, and Homemade Croutons",
@@ -42,7 +42,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/21CenturyPizza_ItalianSalad.jpg",
+    image: "/products/salad/ItalianSalad.jpg",
     title: "Italian Salad",
     description: "Traditional Italian salad with premium toppings and house cheese blend.",
     excerpt: "Romaine Iceberg mix with Salami, Black Olive, Red Bell Pepper, Pepperoncini, and House Cheese Blend",
@@ -54,7 +54,7 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/21CenturyPizza_MediterraneanSalad.jpg",
+    image: "/products/salad/GreekSalad.jpg",
     title: "Mediterranean Salad",
     description: "Mediterranean-style salad with fresh vegetables and feta cheese.",
     excerpt: "Spinach Romaine Mix with Artichoke, Black Olive, Red Onion, Feta, and Tomato",
@@ -66,7 +66,7 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/21CenturyPizza_21CenturyComboPizza.jpg",
+    image: "/products/pizza/21CenturyCombo.jpg",
     title: "21st Century Combo",
     description: "Delicious pie with sausage, pepperoni, salami, black olives, green bell peppers and white onions.",
     excerpt: "Salami, pepperoni, mushroom, onion, green bell peppers, black olives, and Italian sausage",
@@ -86,7 +86,7 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/21CenturyPizza_21CenturyMargheritaPizza.jpg",
+    image: "/products/pizza/21CenturyMargherita.jpg",
     title: "21st Century Margherita",
     description: "Classic Italian pizza topped with fresh tomatoes, basil leaves and garlic infused drizzle",
     excerpt: "Basil, fresh tomato, garlic infused drizzle, house blend cheese",
@@ -106,7 +106,7 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/21CenturyPizza_21CenturyVeggiePizza.jpg",
+    image: "/products/pizza/21CenturyVeggie.jpg",
     title: "21st Century Veggie",
     description: "A vegetarian delight loaded with spinach, artichoke, sundried tomatoes, black olives, red bell peppers and feta cheese.",
     excerpt: "Spinach, Artichoke, Red Bell Pepper, Sun Dried Tomato, Black Olive, and Feta",
@@ -126,7 +126,7 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/21CenturyPizza_AllMeatPizza.jpg",
+    image: "/products/pizza/AllMeat.jpg",
     title: "All Meat",
     description: "A meat lover's dream - pepperoni, ground beef, salami and ham make this pizza a deliciously meaty treat.",
     excerpt: "Ground beef, pepperoni, salami, and ham",
@@ -146,7 +146,7 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/21CenturyPizza_BBQChickenPizza.jpg",
+    image: "/products/pizza/BBQChicken.jpg",
     title: "BBQ Chicken",
     description: "Farm fresh chicken bites with white onions, green bell peppers, pineapple with a rich BBQ sauce.",
     excerpt: "BBQ chicken, white onions, green bell peppers, pineapple, on BBQ base",
@@ -166,7 +166,7 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/21CenturyPizza_ChickenBaconWhite.jpg",
+    image: "/products/pizza/ChickenBaconWhite.jpg",
     title: "Chicken Bacon White",
     description: "A creamy white sauce base topped with tender chicken strips, crispy bacon, and a blend of cheeses.",
     excerpt: "White sauce base with grilled chicken, crispy bacon, and our house cheese blend",
@@ -186,7 +186,7 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/21CenturyPizza_Ham&PineapplePizza.jpg",
+    image: "/products/pizza/Ham&Pineapple.jpg",
     title: "Ham & Pineapple",
     description: "A sweet and savory pizza with juicy pineapple chunks and sliced ham on a classic tomato base.",
     excerpt: "The Classic Hawaiian",
@@ -205,8 +205,68 @@ export const PRODUCTS = [
     },
     featured: true
   },
+    {
+    image: "/products/pizza/StandardVeggie.jpg",
+    title: "Standard Veggie",
+    description: "White onion, mushroom, black olive, and fresh tomato",
+    excerpt: "White onion, mushroom, black olive, and fresh tomato",
+    category: "pizza",
+    prices: {
+      small: 16.00,
+      medium: 22.00,
+      large: 26.00,
+      glutenFree: 18.00
+    },
+    sizes: {
+      small: "10\"",
+      medium: "14\"",
+      large: "18\"",
+      glutenFree: "10\""
+    },
+    featured: false
+  },
+    {
+    image: "/products/pizza/YouPickVeggies.jpg",
+    title: "You Pick Veggies",
+    description: "Any 3 veggies of your choice",
+    excerpt: "Any 3 veggies of your choice",
+    category: "pizza",
+    prices: {
+      small: 15.00,
+      medium: 22.00,
+      large: 25.00,
+      glutenFree: 17.00
+    },
+    sizes: {
+      small: "10\"",
+      medium: "14\"",
+      large: "18\"",
+      glutenFree: "10\""
+    },
+    featured: false
+  },
+      {
+    image: "/products/pizza/TheTony.jpg",
+    title: "The Tony",
+    description: "Parmesan Garlic White Sauce, Meatballs, Mushrooms, White Onions",
+    excerpt: "Parmesan Garlic White Sauce, Meatballs, Mushrooms, White Onions",
+    category: "pizza",
+    prices: {
+      small: 15.00,
+      medium: 21.00,
+      large: 26.00,
+      glutenFree: 17.00
+    },
+    sizes: {
+      small: "10\"",
+      medium: "14\"",
+      large: "18\"",
+      glutenFree: "10\""
+    },
+    featured: false
+  },
  {
-    image: "/products/drinks/coke.jpg",
+    image: "/products/drinks/Coke.png",
     title: "Coca-Cola",
     description: "Classic Coca-Cola",
     category: "drinks",
@@ -221,7 +281,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/diet-coke.jpg",
+    image: "/products/drinks/DietCoke.png",
     title: "Diet Coke",
     description: "Zero-calorie Coca-Cola",
     category: "drinks",
@@ -236,7 +296,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/sprite.jpg",
+    image: "/products/drinks/Sprite.png",
     title: "Sprite",
     description: "Lemon-lime flavored soda",
     category: "drinks",
@@ -251,7 +311,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/dr-pepper.jpg",
+    image: "/products/drinks/DrPepper.png",
     title: "Dr Pepper",
     description: "Original Dr Pepper",
     category: "drinks",
@@ -266,7 +326,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/diet-dr-pepper.jpg",
+    image: "/products/drinks/DrPepperDiet.png",
     title: "Diet Dr Pepper",
     description: "Zero-calorie Dr Pepper",
     category: "drinks",
@@ -281,7 +341,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/cherry-coke.jpg",
+    image: "/products/drinks/CherryCoke.png",
     title: "Cherry Coke",
     description: "Cherry-flavored Coca-Cola",
     category: "drinks",
@@ -296,7 +356,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/mountain-dew.jpg",
+    image: "/products/drinks/MtnDew.png",
     title: "Mountain Dew",
     description: "Original Mountain Dew",
     category: "drinks",
@@ -311,7 +371,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/root-beer.jpg",
+    image: "/products/drinks/MugRootBeer.png",
     title: "Root Beer",
     description: "Classic root beer",
     category: "drinks",
@@ -326,7 +386,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/squirt.jpg",
+    image: "/products/drinks/Squirt.png",
     title: "Squirt",
     description: "Citrus soda",
     category: "drinks",
@@ -341,7 +401,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/ruby-red-squirt.jpg",
+    image: "/products/drinks/RubyRedSquirt.jpg",
     title: "Ruby Red Squirt",
     description: "Ruby red grapefruit citrus soda",
     category: "drinks",
@@ -356,7 +416,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/ginger-ale.jpg",
+    image: "/products/drinks/GingerAle.jpg",
     title: "Ginger Ale",
     description: "Classic ginger ale",
     category: "drinks",
@@ -386,7 +446,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/water.jpg",
+    image: "/products/drinks/WaterBottle.png",
     title: "Bottled Water",
     description: "Pure bottled water",
     category: "drinks",

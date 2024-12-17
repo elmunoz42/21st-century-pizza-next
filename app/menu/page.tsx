@@ -5,8 +5,10 @@ import { MENU_COPY } from "../content/menuCopy";
 
 const Menu: NextPage = () => {
   return (
-    <div className="container mx-auto">
-      <ProductTableSection products={PRODUCTS} copy={MENU_COPY[0]}/>
+    <div className="bg-[url('/ai-tomato-plant.jpg')] bg-cover"> 
+      <div className="container mx-auto">
+        <ProductTableSection products={PRODUCTS} copy={MENU_COPY[0]}/>
+      </div>
     </div>
   );
 };
