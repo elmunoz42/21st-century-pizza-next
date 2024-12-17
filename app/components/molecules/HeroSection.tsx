@@ -6,11 +6,11 @@ const coveredByYourGrace = Covered_By_Your_Grace({
 });
 interface HeroSectionProps {
   copy: {
-    accentMessage: string;
-    title: string;
-    subtitle: string;
-    buttonText: string;
-    buttonLink: string;
+    accentMessage?: string;
+    title?: string;
+    subtitle?: string;
+    buttonText?: string;
+    buttonLink?: string;
   };
   font: {
     className: string;
