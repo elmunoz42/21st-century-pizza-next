@@ -6,11 +6,11 @@ const coveredByYourGrace = Covered_By_Your_Grace({
 });
 interface HeroSectionProps {
   copy: {
-    accentMessage?: string;
-    title?: string;
-    subtitle?: string;
-    buttonText?: string;
-    buttonLink?: string;
+    accentMessage: string;
+    title: string;
+    subtitle: string;
+    buttonText: string;
+    buttonLink: string;
   };
   font: {
     className: string;
@@ -24,8 +24,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   <div
     className="relative flex flex-col items-center justify-center min-h-screen bg-cover bg-center w-full"
     style={{ backgroundImage: `url('/21CenturyPizza_Hero_2880x2304.jpg')` }}
-    // style={{ backgroundImage: `url('/pizza-and-chicken-bg.png')` }}
-    // style={{ backgroundImage: `url('/ai-pizza-hero.jpg')` }}
   >
     <h2
       className={`${coveredByYourGrace.className} text-4xl text-primary bg-white px-4 my-4 z-10`}
