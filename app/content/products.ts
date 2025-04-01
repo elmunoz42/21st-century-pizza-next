@@ -1,5 +1,5 @@
 export const PRODUCTS = [
-    {
+  {
     image: "/products/appetizer/GarlicCheesyBread.jpg",
     title: "Garlic Cheesy Bread",
     description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base.",
@@ -17,7 +17,7 @@ export const PRODUCTS = [
     price: 5.00,
     featured: true
   },
-   {
+  {
     image: "/products/salad/CaesarSalad.jpg",
     title: "Caesar Salad",
     description: "Crisp romaine lettuce tossed in Caesar dressing topped with croutons and parmesan cheese.",
@@ -29,7 +29,7 @@ export const PRODUCTS = [
     },
     featured: false
   },
-    {
+  {
     image: "/products/salad/HouseSalad.jpg",
     title: "House Salad",
     description: "Fresh garden salad with crisp vegetables and homemade croutons.",
@@ -205,7 +205,7 @@ export const PRODUCTS = [
     },
     featured: true
   },
-    {
+  {
     image: "/products/pizza/StandardVeggie.jpg",
     title: "Standard Veggie",
     description: "White onion, mushroom, black olive, and fresh tomato",
@@ -225,7 +225,7 @@ export const PRODUCTS = [
     },
     featured: false
   },
-    {
+  {
     image: "/products/pizza/YouPickVeggies.jpg",
     title: "You Pick Veggies",
     description: "Any 3 veggies of your choice",
@@ -245,7 +245,7 @@ export const PRODUCTS = [
     },
     featured: false
   },
-      {
+  {
     image: "/products/pizza/TheTony.jpg",
     title: "The Tony",
     description: "Parmesan Garlic White Sauce, Meatballs, Mushrooms, White Onions",
@@ -265,7 +265,7 @@ export const PRODUCTS = [
     },
     featured: false
   },
- {
+  {
     image: "/products/drinks/Coke.png",
     title: "Coca-Cola",
     description: "Classic Coca-Cola",
@@ -431,21 +431,6 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/drinks/shirley-temple.jpg",
-    title: "Shirley Temple",
-    description: "Non-alcoholic cocktail with ginger ale and grenadine",
-    category: "drinks",
-    prices: {
-      can: 1.50,
-      sixPack: 7.00
-    },
-    sizes: {
-      can: "12 oz Can",
-      sixPack: "6 Pack"
-    },
-    featured: false
-  },
-  {
     image: "/products/drinks/WaterBottle.png",
     title: "Bottled Water",
     description: "Pure bottled water",
@@ -467,7 +452,7 @@ export const PRODUCTS = [
     description: "Creamy garlic parmesan sauce",
     category: "sauces",
     price: 1.00,
-    featured: true
+    featured: false
   },
   {
     image: "/products/sauces/ranch.jpg",
@@ -499,7 +484,7 @@ export const PRODUCTS = [
     description: "Sweet and tangy BBQ sauce",
     category: "sauces",
     price: 1.00,
-    featured: true
+    featured: false
   },
   {
     image: "/products/sauces/hot-sauce.jpg",
