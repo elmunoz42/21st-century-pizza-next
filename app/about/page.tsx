@@ -2,11 +2,15 @@ import { NextPage } from "next";
 import { Covered_By_Your_Grace } from "next/font/google";
 import Image from "next/image";
 import { ABOUT_COPY } from "../content/aboutCopy";
+import { ABOUT_SEO } from "../seo/aboutSeo";
+import { Metadata } from "next";
 
 const coveredByYourGrace = Covered_By_Your_Grace({
   weight: "400",
   subsets: ["latin"],
 });
+
+export const metadata: Metadata = ABOUT_SEO;
 
 const About: NextPage = () => {
   return (
