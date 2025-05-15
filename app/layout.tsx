@@ -43,9 +43,9 @@ export default function RootLayout({
             <Link href="/menu" className={`p-2 ${styles.link}`}>
               MENU
             </Link>
-            <Link href="https://7ed975-76.myshopify.com/" className={`p-2 ${styles.link}`}>
+            {/* <Link href="https://7ed975-76.myshopify.com/" className={`p-2 ${styles.link}`}>
               MERCH
-            </Link>
+            </Link> */}
             <Link href="/contact" className={`p-2 ${styles.link}`}>
               CALL
             </Link>

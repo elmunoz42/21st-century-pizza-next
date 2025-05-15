@@ -1,9 +1,18 @@
 export const PRODUCTS = [
   {
+    image: "/products/appetizer/ChickenNuggets.jpg",
+    title: "Chicken Nuggets",
+    description: "Homemade Chicken nuggets from our own farm raised chicken. Choose a sauce you would like them tossed in or just take them plain! Also includes one dipping sauce.",
+    excerpt: "Includes one dipping sauce.",
+    category: "appetizer",
+    price: 10.00,
+    featured: true
+  },
+  {
     image: "/products/appetizer/GarlicCheesyBread.jpg",
     title: "Garlic Cheesy Bread",
     description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base.",
-    excerpt: "Garlic Cheese Bread",
+    excerpt: "Garlic cheese bread.",
     category: "appetizer",
     price: 6.50,
     featured: true
@@ -12,7 +21,7 @@ export const PRODUCTS = [
     image: "/products/appetizer/DoughBites.jpg",
     title: "Dough Bites",
     description: "Bite-sized pieces of dough baked to perfection and served with a choice of dipping sauces.",
-    excerpt: "10 bytes, 1 sauce",
+    excerpt: "10 bites, 1 sauce.",
     category: "appetizer",
     price: 5.00,
     featured: true
@@ -21,7 +30,7 @@ export const PRODUCTS = [
     image: "/products/salad/CaesarSalad.jpg",
     title: "Caesar Salad",
     description: "Crisp romaine lettuce tossed in Caesar dressing topped with croutons and parmesan cheese.",
-    excerpt: "Romaine lettuce and homemade croutons dressed with Parmesan cheese, olive oil, and black pepper. Served with a lemon wedge and a side of Caesar Dressing.",
+    excerpt: "Romaine lettuce and homemade croutons dressed with Parmesan cheese, olive oil, and black pepper. Served with a lemon wedge and a side of Caesar dressing.",
     category: "salad",
     prices: {
       small: 6.00,
@@ -33,7 +42,7 @@ export const PRODUCTS = [
     image: "/products/salad/HouseSalad.jpg",
     title: "House Salad",
     description: "Fresh garden salad with crisp vegetables and homemade croutons.",
-    excerpt: "Iceberg Lettuce with Mushroom, Red Onion, Green Bell Pepper, Tomato, and Homemade Croutons",
+    excerpt: "Iceberg lettuce with mushroom, red onion, green bell pepper, tomato, and homemade croutons.",
     category: "salad",
     prices: {
       small: 6.00,
@@ -45,7 +54,7 @@ export const PRODUCTS = [
     image: "/products/salad/ItalianSalad.jpg",
     title: "Italian Salad",
     description: "Traditional Italian salad with premium toppings and house cheese blend.",
-    excerpt: "Romaine Iceberg mix with Salami, Black Olive, Red Bell Pepper, Pepperoncini, and House Cheese Blend",
+    excerpt: "Romaine iceberg mix with salami, black olive, red bell pepper, pepperoncini, and house cheese blend.",
     category: "salad",
     prices: {
       small: 6.00,
@@ -57,7 +66,7 @@ export const PRODUCTS = [
     image: "/products/salad/GreekSalad.jpg",
     title: "Mediterranean Salad",
     description: "Mediterranean-style salad with fresh vegetables and feta cheese.",
-    excerpt: "Spinach Romaine Mix with Artichoke, Black Olive, Red Onion, Feta, and Tomato",
+    excerpt: "Spinach romaine mix with artichoke, black olive, red onion, feta, and tomato.",
     category: "salad",
     prices: {
       small: 6.00,
@@ -69,7 +78,7 @@ export const PRODUCTS = [
     image: "/products/pizza/21CenturyCombo.jpg",
     title: "21st Century Combo",
     description: "Delicious pie with sausage, pepperoni, salami, black olives, green bell peppers and white onions.",
-    excerpt: "Salami, pepperoni, mushroom, onion, green bell peppers, black olives, and Italian sausage",
+    excerpt: "Salami, pepperoni, mushroom, onion, green bell peppers, black olives, and Italian sausage.",
     category: "pizza",
     prices: {
       small: 18.00,
@@ -88,8 +97,8 @@ export const PRODUCTS = [
   {
     image: "/products/pizza/21CenturyMargherita.jpg",
     title: "21st Century Margherita",
-    description: "Classic Italian pizza topped with fresh tomatoes, basil leaves and garlic infused drizzle",
-    excerpt: "Basil, fresh tomato, garlic infused drizzle, house blend cheese",
+    description: "Classic Italian pizza topped with fresh tomatoes, basil leaves, and garlic-infused drizzle.",
+    excerpt: "Basil, fresh tomato, garlic-infused drizzle, and house blend cheese.",
     category: "pizza",
     prices: {
       small: 15.00,
@@ -108,8 +117,8 @@ export const PRODUCTS = [
   {
     image: "/products/pizza/21CenturyVeggie.jpg",
     title: "21st Century Veggie",
-    description: "A vegetarian delight loaded with spinach, artichoke, sundried tomatoes, black olives, red bell peppers and feta cheese.",
-    excerpt: "Spinach, Artichoke, Red Bell Pepper, Sun Dried Tomato, Black Olive, and Feta",
+    description: "A vegetarian delight loaded with spinach, artichoke, sun-dried tomatoes, black olives, red bell peppers, and feta cheese.",
+    excerpt: "Spinach, artichoke, red bell pepper, sun-dried tomato, black olive, and feta.",
     category: "pizza",
     prices: {
       small: 17.00,
@@ -128,8 +137,8 @@ export const PRODUCTS = [
   {
     image: "/products/pizza/AllMeat.jpg",
     title: "All Meat",
-    description: "A meat lover's dream - pepperoni, ground beef, salami and ham make this pizza a deliciously meaty treat.",
-    excerpt: "Ground beef, pepperoni, salami, and ham",
+    description: "A meat lover's dream – pepperoni, ground beef, salami, and ham make this pizza a deliciously meaty treat.",
+    excerpt: "Ground beef, pepperoni, salami, and ham.",
     category: "pizza",
     prices: {
       small: 16.00,
@@ -148,8 +157,8 @@ export const PRODUCTS = [
   {
     image: "/products/pizza/BBQChicken.jpg",
     title: "BBQ Chicken",
-    description: "Farm fresh chicken bites with white onions, green bell peppers, pineapple with a rich BBQ sauce.",
-    excerpt: "BBQ chicken, white onions, green bell peppers, pineapple, on BBQ base",
+    description: "Farm-fresh chicken bites with white onions, green bell peppers, and pineapple with a rich BBQ sauce.",
+    excerpt: "BBQ chicken, white onions, green bell peppers, pineapple, on BBQ base.",
     category: "pizza",
     prices: {
       small: 15.00,
@@ -169,7 +178,7 @@ export const PRODUCTS = [
     image: "/products/pizza/ChickenBaconWhite.jpg",
     title: "Chicken Bacon White",
     description: "A creamy white sauce base topped with tender chicken strips, crispy bacon, and a blend of cheeses.",
-    excerpt: "White sauce base with grilled chicken, crispy bacon, and our house cheese blend",
+    excerpt: "White sauce base with grilled chicken, crispy bacon, and our house cheese blend.",
     category: "pizza",
     prices: {
       small: 15.00,
@@ -189,7 +198,7 @@ export const PRODUCTS = [
     image: "/products/pizza/Ham&Pineapple.jpg",
     title: "Ham & Pineapple",
     description: "A sweet and savory pizza with juicy pineapple chunks and sliced ham on a classic tomato base.",
-    excerpt: "The Classic Hawaiian",
+    excerpt: "The classic Hawaiian.",
     category: "pizza",
     prices: {
       small: 15.00,
@@ -209,7 +218,7 @@ export const PRODUCTS = [
     image: "/products/pizza/StandardVeggie.jpg",
     title: "Standard Veggie",
     description: "White onion, mushroom, black olive, and fresh tomato",
-    excerpt: "White onion, mushroom, black olive, and fresh tomato",
+    excerpt: "White onion, mushroom, black olive, and fresh tomato.",
     category: "pizza",
     prices: {
       small: 16.00,
@@ -229,7 +238,7 @@ export const PRODUCTS = [
     image: "/products/pizza/YouPickVeggies.jpg",
     title: "You Pick Veggies",
     description: "Any 3 veggies of your choice",
-    excerpt: "Any 3 veggies of your choice",
+    excerpt: "Any 3 veggies of your choice.",
     category: "pizza",
     prices: {
       small: 15.00,
@@ -248,8 +257,8 @@ export const PRODUCTS = [
   {
     image: "/products/pizza/TheTony.jpg",
     title: "The Tony",
-    description: "Parmesan Garlic White Sauce, Meatballs, Mushrooms, White Onions",
-    excerpt: "Parmesan Garlic White Sauce, Meatballs, Mushrooms, White Onions",
+    description: "Parmesan garlic white sauce, meatballs, mushrooms, and white onions.",
+    excerpt: "Parmesan garlic white sauce, meatballs, mushrooms, and white onions.",
     category: "pizza",
     prices: {
       small: 15.00,
@@ -439,7 +448,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/sauces/red-sauce.jpg",
+    image: "/products/sauces/RedSauce.png",
     title: "Homemade Red Sauce",
     description: "Our classic marinara sauce",
     category: "sauces",
@@ -447,7 +456,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/sauces/white-sauce.jpg",
+    image: "/products/sauces/ParmesanGarlicWhiteSauce.png",
     title: "Parmesan Garlic White Sauce",
     description: "Creamy garlic parmesan sauce",
     category: "sauces",
@@ -455,7 +464,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/sauces/ranch.jpg",
+    image: "/products/sauces/Ranch.png",
     title: "Ranch",
     description: "Classic ranch dressing",
     category: "sauces",
@@ -463,7 +472,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/sauces/pesto-red-mix.jpg",
+    image: "/products/sauces/PestoRedMix.png",
     title: "Pesto Red Mix",
     description: "Blend of pesto and marinara sauce",
     category: "sauces",
@@ -471,7 +480,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/sauces/pesto.jpg",
+    image: "/products/sauces/Pesto.png",
     title: "Pesto",
     description: "Traditional basil pesto",
     category: "sauces",
@@ -479,7 +488,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/sauces/bbq-sauce.jpg",
+    image: "/products/sauces/BBQ.png",
     title: "BBQ Sauce",
     description: "Sweet and tangy BBQ sauce",
     category: "sauces",
@@ -487,7 +496,7 @@ export const PRODUCTS = [
     featured: false
   },
   {
-    image: "/products/sauces/hot-sauce.jpg",
+    image: "/products/sauces/HotSauce.png",
     title: "Frank's RedHot",
     description: "Classic hot sauce",
     category: "sauces",
