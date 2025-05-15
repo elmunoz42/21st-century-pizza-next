@@ -49,14 +49,16 @@ export default function RootLayout({
             <Link href="tel:(503) 954-1570" className={`p-2 ${styles.link}`}>
               CALL
             </Link>
-            <a
-              href="https://orderonline.granburyrs.com/slice/menu/main"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/order-online"
+              // href="https://orderonline.granburyrs.com/slice/menu/main"
+              // target="_blank"
+              // rel="noopener noreferrer"
               className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded inline-block"
             >
               ORDER ONLINE
-            </a>
+            </Link>
+
           </div>
 
           {/* Mobile Menu Button */}
