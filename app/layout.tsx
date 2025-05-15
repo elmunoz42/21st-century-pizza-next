@@ -108,7 +108,7 @@ export default function RootLayout({
             <Link href="https://7ed975-76.myshopify.com/" className={`p-2 ${styles.link}`}>
               MERCH
             </Link>
-            <Link href="/contact" className={`p-2 ${styles.link}`}>
+            <Link href="tel:(503) 954-1570" className={`p-2 ${styles.link}`}>
               CALL
             </Link>
             <Link
