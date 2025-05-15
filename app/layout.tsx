@@ -46,11 +46,11 @@ export default function RootLayout({
             {/* <Link href="https://7ed975-76.myshopify.com/" className={`p-2 ${styles.link}`}>
               MERCH
             </Link> */}
-            <Link href="/contact" className={`p-2 ${styles.link}`}>
+            <Link href="tel:(503) 954-1570" className={`p-2 ${styles.link}`}>
               CALL
             </Link>
             <a
-              href="https://21stcenturypizza.com/order-online/"
+              href="https://orderonline.granburyrs.com/slice/menu/main"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded inline-block"

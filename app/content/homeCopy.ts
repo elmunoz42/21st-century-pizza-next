@@ -15,7 +15,7 @@ export const HOME_COPY = [
     title: "MORE THAN JUST A PIZZA SHOP",
     accentMessage: "gourmet ingredients",
     buttonText: "ORDER ONLINE",
-    buttonLink: "/order-online",
+    buttonLink: "https://orderonline.granburyrs.com/slice/menu/main",
   },
   {
     title: "WE ARE LISTENING",
