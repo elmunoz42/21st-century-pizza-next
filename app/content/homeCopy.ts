@@ -15,7 +15,7 @@ export const HOME_COPY = [
     title: "MORE THAN JUST A PIZZA SHOP",
     accentMessage: "gourmet ingredients",
     buttonText: "ORDER ONLINE",
-    buttonLink: "/order-online",
+    buttonLink: "https://orderonline.granburyrs.com/slice/index.html?accountId=dd37e4bf-6698-4488-9c72-7c6e8284dd89&amp;locationId=5bf36e26-080a-492d-9fb3-022a059b1a08",
   },
   {
     title: "WE ARE LISTENING",
@@ -23,6 +23,6 @@ export const HOME_COPY = [
       "Check us out on Instagram for special deals, news and more... wether it's pizza week, a custom pizza competitions or time sensitive deals we strive to keep things fresh on social media just like we do in the kitchen.",
     accentMessage: "we love our fans",
     buttonText: "ORDER ONLINE",
-    buttonLink: "/order-online",
+    buttonLink: "https://orderonline.granburyrs.com/slice/index.html?accountId=dd37e4bf-6698-4488-9c72-7c6e8284dd89&amp;locationId=5bf36e26-080a-492d-9fb3-022a059b1a08",
   },
 ];

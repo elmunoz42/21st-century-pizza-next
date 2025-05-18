@@ -25,9 +25,9 @@ export default function RootLayout({
         <GoogleTagManager tagManagerId="AW-16828268468" />
       </head>
       <body className={oswald.className}>
-        <nav className="flex justify-between px-8 items-center tx-white" style={{ backgroundColor: "#201314", color: 'white' }}>
+        <nav className="flex justify-between px-8 items-center tx-white" style={{ backgroundColor: "#120a0a", color: 'white' }}>
           <Image
-            src="/21st-logo-rooster-dark.png"
+            src="/21st-logo-rooster-black.png"
             width="800"
             height="300"
             alt="Logo"
@@ -50,7 +50,7 @@ export default function RootLayout({
               CALL
             </Link>
             <Link
-              href="/order-online"
+              href="https://orderonline.granburyrs.com/slice/index.html?accountId=dd37e4bf-6698-4488-9c72-7c6e8284dd89&amp;locationId=5bf36e26-080a-492d-9fb3-022a059b1a08"
               // href="https://orderonline.granburyrs.com/slice/menu/main"
               // target="_blank"
               // rel="noopener noreferrer"
@@ -112,7 +112,7 @@ export default function RootLayout({
               CALL
             </Link>
             <Link
-              href="/order-online"
+              href="https://orderonline.granburyrs.com/slice/index.html?accountId=dd37e4bf-6698-4488-9c72-7c6e8284dd89&amp;locationId=5bf36e26-080a-492d-9fb3-022a059b1a08"
               // href="https://orderonline.granburyrs.com/slice/menu/main"
               // target="_blank"
               // rel="noopener noreferrer"

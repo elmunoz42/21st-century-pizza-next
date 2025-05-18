@@ -52,7 +52,7 @@ export const SocialSection: React.FC<SocialSectionProps> = ({
         ></iframe>
       </div>
       <div className="flex-1 flex flex-col items-center justify-center">
-        <h2 className={`${coveredByYourGrace.className } text-4xl text-white text-center`}>
+        <h2 className={`${coveredByYourGrace.className} text-4xl text-white text-center`}>
           <span className="bg-white px-4 text-primary">
             {copy.accentMessage}
           </span>
@@ -64,7 +64,7 @@ export const SocialSection: React.FC<SocialSectionProps> = ({
           {copy.description}
         </p>
         <Link
-          href={copy.buttonLink || "/order-online"}
+          href={copy.buttonLink || "https://orderonline.granburyrs.com/slice/index.html?accountId=dd37e4bf-6698-4488-9c72-7c6e8284dd89&amp;locationId=5bf36e26-080a-492d-9fb3-022a059b1a08"}
           className="bg-white hover:bg-primary-dark hover:text-white text-primary font-bold py-2 px-4 rounded inline-block z-20 mt-4"
         >
           {copy.buttonText}
