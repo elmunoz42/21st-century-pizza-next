@@ -39,7 +39,7 @@ export const PRODUCTS = [
     image: "/products/chicken/ChickenNuggets.jpg",
     title: "Chicken Nuggets",
     description: "Homemade Chicken nuggets from our own farm raised chicken. Choose a sauce you would like them tossed in or just take them plain! Also includes one dipping sauce.",
-    excerpt: "Locally raised chicken. Includes one dipping sauce.",
+    excerpt: "LLocally raised chicken from our farm.  Includes one dipping sauce.",
     category: "chicken",
     price: 8.00,
     featured: true
