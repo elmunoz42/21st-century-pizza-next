@@ -277,26 +277,26 @@ export const PRODUCTS = [
     },
     featured: true
   },
-  {
-    image: "/products/pizza/ChickenBaconWhite.jpg",
-    title: "Chicken Bacon White",
-    description: "A creamy white sauce base topped with tender chicken strips, crispy bacon, and a blend of cheeses.",
-    excerpt: "White sauce base with grilled chicken, crispy bacon, and our house cheese blend.",
-    category: "pizza",
-    prices: {
-      small: 15.00,
-      medium: 21.00,
-      large: 26.00,
-      glutenFree: 17.00
-    },
-    sizes: {
-      small: "10\"",
-      medium: "14\"",
-      large: "18\"",
-      glutenFree: "10\""
-    },
-    featured: true
-  },
+  // {
+  //   image: "/products/pizza/ChickenBaconWhite.jpg",
+  //   title: "Chicken Bacon White",
+  //   description: "A creamy white sauce base topped with tender chicken strips, crispy bacon, and a blend of cheeses.",
+  //   excerpt: "White sauce base with grilled chicken, crispy bacon, and our house cheese blend.",
+  //   category: "pizza",
+  //   prices: {
+  //     small: 15.00,
+  //     medium: 21.00,
+  //     large: 26.00,
+  //     glutenFree: 17.00
+  //   },
+  //   sizes: {
+  //     small: "10\"",
+  //     medium: "14\"",
+  //     large: "18\"",
+  //     glutenFree: "10\""
+  //   },
+  //   featured: true
+  // },
   {
     image: "/products/pizza/Ham&Pineapple.jpg",
     title: "Ham & Pineapple",
