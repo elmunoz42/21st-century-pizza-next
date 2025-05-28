@@ -47,8 +47,8 @@ export const PRODUCTS = [
   {
     image: "/products/chicken/ChickenWings.png",
     title: "Chicken Wings",
-    description: "Locally raised chicken wings from our farm. Original, Frank's Red Hot, BBQ, or Garlic Parm sauce included.",
-    excerpt: "Locally raised chicken wings from our farm. Original, Frank's Red Hot, BBQ, or Garlic Parm sauce included.",
+    description: "COMING SOON! Locally raised chicken wings from our farm. Original, Frank's Red Hot, BBQ, or Garlic Parm sauce included.",
+    excerpt: "COMING SOON! Locally raised chicken wings from our farm. Original, Frank's Red Hot, BBQ, or Garlic Parm sauce included.",
     category: "chicken",
     price: 8.00,
     featured: true
