@@ -11,7 +11,7 @@ export const PRODUCTS = [
   {
     image: "/products/appetizer/GarlicCheesyBread.jpg",
     title: "Garlic Cheesy Bread",
-    description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base.",
+    description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base. Includes two dipping sauces.",
     excerpt: "Garlic cheese bread.",
     category: "appetizer",
     price: 6.50,

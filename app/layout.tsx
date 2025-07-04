@@ -8,6 +8,8 @@ import styles from ".//styles/CustomLink.module.css";
 import { GoogleAnalytics } from '@next/third-parties/google';
 import GoogleTagManager from "./components/scripts/GoogleTagManager";
 import { useState } from "react";
+import { InterstitialModal } from "./components/molecules/InterstitialModal";
+import { MODAL_CONTENT } from "./content/modalContent";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -124,6 +126,13 @@ export default function RootLayout({
         </div>
 
         {children}
+        
+        <InterstitialModal
+          title={MODAL_CONTENT.title}
+          description={MODAL_CONTENT.description}
+          imageSrc={MODAL_CONTENT.imageSrc}
+          imageAlt={MODAL_CONTENT.imageAlt}
+        />
       </body>
     </html>
   );
