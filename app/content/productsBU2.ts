@@ -1,93 +1,30 @@
 export const PRODUCTS = [
   {
-    image: "/products/appetizer/GarlicCheesyBread.jpg",
-    title: "Garlic Cheesy Bread",
-    description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base. Includes two dipping sauces.",
-    excerpt: "Garlic cheese bread.",
+    image: "/products/appetizer/ChickenNuggets.jpg",
+    title: "Chicken Nuggets",
+    description: "Homemade Chicken nuggets from our own farm raised chicken. Choose a sauce you would like them tossed in or just take them plain! Also includes one dipping sauce.",
+    excerpt: "Includes one dipping sauce.",
     category: "appetizer",
-    price: 8.00,
+    price: 10.00,
     featured: true
   },
   {
-    image: "/products/appetizer/GarlicBread.png",
-    title: "Garlic Bread",
-    description: "Crispy bread with garlic spread and served with 2 side sauces.",
-    excerpt: "With 2 side sauces.",
+    image: "/products/appetizer/GarlicCheesyBread.jpg",
+    title: "Garlic Cheesy Bread",
+    description: "A flavorful combination of garlic spread and melted cheese on a crispy bread base.",
+    excerpt: "Garlic cheese bread.",
     category: "appetizer",
-    price: 7.00,
+    price: 6.50,
     featured: true
   },
   {
     image: "/products/appetizer/DoughBites.jpg",
     title: "Dough Bites",
     description: "Bite-sized pieces of dough baked to perfection and served with a choice of dipping sauces.",
-    excerpt: "10 bites, 2 side sauces.",
+    excerpt: "10 bites, 1 sauce.",
     category: "appetizer",
-    price: 6.00,
+    price: 5.00,
     featured: true
-  },
-  {
-    image: "/products/appetizer/CrazyBread.jpg",
-    title: "Crazy Bread",
-    description: "Garlic cheese bread with pepperoni and bacon, served with 2 side sauces.",
-    excerpt: "Garlic cheese bread with pepperoni and bacon.",
-    category: "appetizer",
-    price: 10.00,
-    featured: true
-  },
-  {
-    image: "/products/chicken/ChickenNuggets.jpg",
-    title: "Chicken Nuggets",
-    description: "Homemade Chicken nuggets from our own farm raised chicken. Choose a sauce you would like them tossed in or just take them plain! Also includes one dipping sauce.",
-    excerpt: "LLocally raised chicken from our farm.  Includes one dipping sauce.",
-    category: "chicken",
-    price: 8.00,
-    featured: true
-  },
-  {
-    image: "/products/chicken/ChickenWings.png",
-    title: "Chicken Wings",
-    description: "COMING SOON! Locally raised chicken wings from our farm. Original, Frank's Red Hot, BBQ, or Garlic Parm sauce included.",
-    excerpt: "COMING SOON! Locally raised chicken wings from our farm. Original, Frank's Red Hot, BBQ, or Garlic Parm sauce included.",
-    category: "chicken",
-    price: 8.00,
-    featured: true
-  },
-  {
-    image: "/products/subs/MeatballSub.png",
-    title: "Meatball Sub",
-    description: "5 Meatballs with homemade red sauce, served hot with red sauce, 5 blend cheese, bag of chips & drink. Optional - lettuce, tomatoes.",
-    excerpt: "Included chips, drink. Optional - lettuce, tomatoes.",
-    category: "subs",
-    price: 13.00,
-    featured: true
-  },
-  {
-    image: "/products/subs/ChickenBaconWhite.png",
-    title: "Chicken Bacon Sub",
-    description: "Chicken, bacon, and red onions served hot with red sauce, 5 blend cheese, bag of chips & drink. Optional - lettuce, tomatoes.",
-    excerpt: "Chicken, bacon, red onions.",
-    category: "subs",
-    price: 13.00,
-    featured: true
-  },
-  {
-    image: "/products/dessert/ChocolateChipCookie.png",
-    title: "Chocolate Chip Cookies",
-    description: "Fresh baked chocolate chip cookies.",
-    excerpt: "Fresh baked chocolate chip cookies.",
-    category: "dessert",
-    price: 2.00,
-    featured: false
-  },
-  {
-    image: "/products/dessert/CinnamonSwirlCake.png",
-    title: "Cinnamon Swirl Cake",
-    description: "Sweet cinnamon swirl cake.",
-    excerpt: "Sweet cinnamon swirl cake.",
-    category: "dessert",
-    price: 4.00,
-    featured: false
   },
   {
     image: "/products/salad/CaesarSalad.jpg",
@@ -138,46 +75,6 @@ export const PRODUCTS = [
     featured: true
   },
   {
-    image: "/products/pizza/Cheese.jpg",
-    title: "Cheese Pizza",
-    description: "Classic cheese pizza with our homemade red sauce and cheese blend.",
-    excerpt: "Classic cheese pizza.",
-    category: "pizza",
-    prices: {
-      small: 15.00,
-      medium: 19.00,
-      large: 25.00,
-      glutenFree: 16.00
-    },
-    sizes: {
-      small: "10\"",
-      medium: "14\"",
-      large: "18\"",
-      glutenFree: "10\""
-    },
-    featured: true
-  },
-  {
-    image: "/products/pizza/Pepperoni.png",
-    title: "Pepperoni Pizza",
-    description: "Classic pepperoni pizza with our homemade red sauce and cheese blend.",
-    excerpt: "Classic pepperoni pizza.",
-    category: "pizza",
-    prices: {
-      small: 16.00,
-      medium: 21.00,
-      large: 26.00,
-      glutenFree: 18.00
-    },
-    sizes: {
-      small: "10\"",
-      medium: "14\"",
-      large: "18\"",
-      glutenFree: "10\""
-    },
-    featured: true
-  },
-  {
     image: "/products/pizza/21CenturyCombo.jpg",
     title: "21st Century Combo",
     description: "Delicious pie with sausage, pepperoni, salami, black olives, green bell peppers and white onions.",
@@ -185,8 +82,8 @@ export const PRODUCTS = [
     category: "pizza",
     prices: {
       small: 18.00,
-      medium: 25.00,
-      large: 30.00,
+      medium: 24.00,
+      large: 28.00,
       glutenFree: 20.00
     },
     sizes: {
@@ -204,10 +101,10 @@ export const PRODUCTS = [
     excerpt: "Basil, fresh tomato, garlic-infused drizzle, and house blend cheese.",
     category: "pizza",
     prices: {
-      small: 17.00,
-      medium: 22.00,
-      large: 28.00,
-      glutenFree: 19.00
+      small: 15.00,
+      medium: 21.00,
+      large: 25.00,
+      glutenFree: 16.00
     },
     sizes: {
       small: "10\"",
@@ -224,10 +121,10 @@ export const PRODUCTS = [
     excerpt: "Spinach, artichoke, red bell pepper, sun-dried tomato, black olive, and feta.",
     category: "pizza",
     prices: {
-      small: 18.00,
-      medium: 24.00,
-      large: 30.00,
-      glutenFree: 20.00
+      small: 17.00,
+      medium: 23.00,
+      large: 27.00,
+      glutenFree: 19.00
     },
     sizes: {
       small: "10\"",
@@ -244,10 +141,10 @@ export const PRODUCTS = [
     excerpt: "Ground beef, pepperoni, salami, and ham.",
     category: "pizza",
     prices: {
-      small: 17.00,
-      medium: 23.00,
-      large: 28.00,
-      glutenFree: 20.00
+      small: 16.00,
+      medium: 21.00,
+      large: 26.00,
+      glutenFree: 18.00
     },
     sizes: {
       small: "10\"",
@@ -264,10 +161,10 @@ export const PRODUCTS = [
     excerpt: "BBQ chicken, white onions, green bell peppers, pineapple, on BBQ base.",
     category: "pizza",
     prices: {
-      small: 17.00,
-      medium: 23.00,
-      large: 28.00,
-      glutenFree: 19.00
+      small: 15.00,
+      medium: 21.00,
+      large: 26.00,
+      glutenFree: 18.00
     },
     sizes: {
       small: "10\"",
@@ -277,26 +174,26 @@ export const PRODUCTS = [
     },
     featured: true
   },
-  // {
-  //   image: "/products/pizza/ChickenBaconWhite.jpg",
-  //   title: "Chicken Bacon White",
-  //   description: "A creamy white sauce base topped with tender chicken strips, crispy bacon, and a blend of cheeses.",
-  //   excerpt: "White sauce base with grilled chicken, crispy bacon, and our house cheese blend.",
-  //   category: "pizza",
-  //   prices: {
-  //     small: 15.00,
-  //     medium: 21.00,
-  //     large: 26.00,
-  //     glutenFree: 17.00
-  //   },
-  //   sizes: {
-  //     small: "10\"",
-  //     medium: "14\"",
-  //     large: "18\"",
-  //     glutenFree: "10\""
-  //   },
-  //   featured: true
-  // },
+  {
+    image: "/products/pizza/ChickenBaconWhite.jpg",
+    title: "Chicken Bacon White",
+    description: "A creamy white sauce base topped with tender chicken strips, crispy bacon, and a blend of cheeses.",
+    excerpt: "White sauce base with grilled chicken, crispy bacon, and our house cheese blend.",
+    category: "pizza",
+    prices: {
+      small: 15.00,
+      medium: 21.00,
+      large: 26.00,
+      glutenFree: 17.00
+    },
+    sizes: {
+      small: "10\"",
+      medium: "14\"",
+      large: "18\"",
+      glutenFree: "10\""
+    },
+    featured: true
+  },
   {
     image: "/products/pizza/Ham&Pineapple.jpg",
     title: "Ham & Pineapple",
@@ -304,30 +201,10 @@ export const PRODUCTS = [
     excerpt: "The classic Hawaiian.",
     category: "pizza",
     prices: {
-      small: 17.00,
-      medium: 22.00,
-      large: 28.00,
-      glutenFree: 19.00
-    },
-    sizes: {
-      small: "10\"",
-      medium: "14\"",
-      large: "18\"",
-      glutenFree: "10\""
-    },
-    featured: true
-  },
-  {
-    image: "/products/pizza/WholePig.png",
-    title: "Whole Pig",
-    description: "Ham, pepperoni, salami, Italian sausage, and bacon - a meat lover's ultimate pizza.",
-    excerpt: "Ham, pepperoni, salami, Italian sausage, bacon.",
-    category: "pizza",
-    prices: {
-      small: 18.00,
-      medium: 25.00,
-      large: 30.00,
-      glutenFree: 20.00
+      small: 15.00,
+      medium: 20.00,
+      large: 24.00,
+      glutenFree: 17.00
     },
     sizes: {
       small: "10\"",
@@ -344,10 +221,10 @@ export const PRODUCTS = [
     excerpt: "White onion, mushroom, black olive, and fresh tomato.",
     category: "pizza",
     prices: {
-      small: 17.00,
-      medium: 23.00,
-      large: 28.00,
-      glutenFree: 19.00
+      small: 16.00,
+      medium: 22.00,
+      large: 26.00,
+      glutenFree: 18.00
     },
     sizes: {
       small: "10\"",
@@ -384,10 +261,10 @@ export const PRODUCTS = [
     excerpt: "Parmesan garlic white sauce, meatballs, mushrooms, and white onions.",
     category: "pizza",
     prices: {
-      small: 17.00,
-      medium: 22.00,
-      large: 28.00,
-      glutenFree: 19.00
+      small: 15.00,
+      medium: 21.00,
+      large: 26.00,
+      glutenFree: 17.00
     },
     sizes: {
       small: "10\"",
@@ -403,14 +280,12 @@ export const PRODUCTS = [
     description: "Classic Coca-Cola",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -420,14 +295,12 @@ export const PRODUCTS = [
     description: "Zero-calorie Coca-Cola",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -437,14 +310,12 @@ export const PRODUCTS = [
     description: "Lemon-lime flavored soda",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -454,14 +325,12 @@ export const PRODUCTS = [
     description: "Original Dr Pepper",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -471,14 +340,12 @@ export const PRODUCTS = [
     description: "Zero-calorie Dr Pepper",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -488,14 +355,12 @@ export const PRODUCTS = [
     description: "Cherry-flavored Coca-Cola",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -505,14 +370,12 @@ export const PRODUCTS = [
     description: "Original Mountain Dew",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -522,14 +385,12 @@ export const PRODUCTS = [
     description: "Classic root beer",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -539,14 +400,12 @@ export const PRODUCTS = [
     description: "Citrus soda",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -556,14 +415,12 @@ export const PRODUCTS = [
     description: "Ruby red grapefruit citrus soda",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
@@ -573,40 +430,21 @@ export const PRODUCTS = [
     description: "Classic ginger ale",
     category: "drinks",
     prices: {
-      can: 2.00,
-      sixPack: 7.00,
-      twoLiter: 5.00
+      can: 1.50,
+      sixPack: 7.00
     },
     sizes: {
       can: "12 oz Can",
-      sixPack: "6 Pack",
-      twoLiter: "2 Liter"
+      sixPack: "6 Pack"
     },
     featured: false
   },
-  // {
-  //   image: "/products/drinks/ShirleyTemple.jpg",
-  //   title: "Shirley Temple",
-  //   description: "Classic Shirley Temple drink",
-  //   category: "drinks",
-  //   prices: {
-  //     can: 2.00,
-  //     sixPack: 7.00,
-  //     twoLiter: 5.00
-  //   },
-  //   sizes: {
-  //     can: "12 oz Can",
-  //     sixPack: "6 Pack",
-  //     twoLiter: "2 Liter"
-  //   },
-  //   featured: false
-  // },
   {
     image: "/products/drinks/WaterBottle.png",
     title: "Bottled Water",
     description: "Pure bottled water",
     category: "drinks",
-    price: 1.50,
+    price: 1.00,
     featured: false
   },
   {
@@ -661,14 +499,6 @@ export const PRODUCTS = [
     image: "/products/sauces/HotSauce.png",
     title: "Frank's RedHot",
     description: "Classic hot sauce",
-    category: "sauces",
-    price: 1.00,
-    featured: false
-  },
-  {
-    image: "/products/sauces/GarlicInfusedOliveOil.png",
-    title: "Garlic Infused Olive Oil",
-    description: "Premium garlic infused olive oil",
     category: "sauces",
     price: 1.00,
     featured: false
