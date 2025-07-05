@@ -132,6 +132,7 @@ export default function RootLayout({
           description={MODAL_CONTENT.description}
           imageSrc={MODAL_CONTENT.imageSrc}
           imageAlt={MODAL_CONTENT.imageAlt}
+          enabled={MODAL_CONTENT.enabled}
         />
       </body>
     </html>

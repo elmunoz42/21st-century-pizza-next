@@ -8,6 +8,7 @@ interface InterstitialModalProps {
   description: string;
   imageSrc: string;
   imageAlt: string;
+  enabled: boolean;
 }
 
 export const InterstitialModal: React.FC<InterstitialModalProps> = ({
@@ -15,17 +16,19 @@ export const InterstitialModal: React.FC<InterstitialModalProps> = ({
   description,
   imageSrc,
   imageAlt,
+  enabled = true, // Default to true if not provided
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     // Show modal after a short delay when component mounts
+    if (!enabled) return; // If modal is not enabled, do not show
     const timer = setTimeout(() => {
       setIsOpen(true);
     }, 2000); // 2 second delay
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [enabled]);
 
   const closeModal = () => {
     setIsOpen(false);
